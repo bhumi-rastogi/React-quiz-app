@@ -1,0 +1,128 @@
+body{
+  background-color: #E2FFF3;
+}
+
+span{
+  font-family: Garamond (serif);
+  font-weight: 950;
+  color: #dd5656;
+  text-shadow:  4px 3px #47e647;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 65px;
+  line-height: 2.2;
+}
+
+.heal{
+  justify-content: space-around;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.question-show{
+  width: 600px;
+  height: 400px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 80px;
+  background-color: rgb(185, 95, 95);
+  border-radius: 45px;
+  box-shadow:4px 4px 40px #000000 ;
+  padding-bottom: 45px;
+}
+
+h2, h4{
+  text-align: center;
+  font-family: ' Georgia','Helvetica';
+  font-size: xx-large;
+  padding-top: 35px;
+}
+
+#options {
+  display: grid;
+  width: 400px;
+  height: 200px;
+  margin-left: 100px;
+  gap: 8px;
+}
+
+#options-btn{
+  border-top-left-radius:  16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+#add-hightlight,#remove-highlight {
+  margin-left: 80px;
+  border-radius: 16px;
+  background-color: rgb(135, 177, 163);
+  margin-top: 30px;
+  height: 50px;
+  width: 200px;
+}
+
+#head{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #9f6161;
+  line-height: 2.1;
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px#b86f6f;
+}
+
+.toggle-btn{
+  background-color: rgb(135, 177, 163);
+  border-radius: 9px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #000000;
+  font-weight: 600;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+}
+
+h3{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#result-box{
+  background-color: rgb(135, 177, 163);
+  width: 450px;
+  height: 270px;
+  margin-left: 450px;
+  margin-top: 60px;
+  border-radius: 16px;
+  box-shadow:2px 2px 40px #000000 ;
+}
+
+.box{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+#restart{
+  background-color:#b56e6e;
+  border-radius: 9px;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  font-weight: xx-bold;
+  padding: 14px 28px;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 170px;
+  color: #000000;
+  cursor: pointer;
+}
+ 
+
